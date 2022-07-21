@@ -5,6 +5,9 @@ Dockerfile for https://github.com/baowenbo/dain
 `docker pull jperldev/dain`
 
 `docker run --gpus all -it jperldev/dain`
+  
+or for the first and third GPUs:  
+`docker run --gpus '"device=0,2"' -it jperldev/dain`
 
 # Run DAIN inside container
 
